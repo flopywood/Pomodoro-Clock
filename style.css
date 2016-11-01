@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.container-fluid {
+  position: inherit;
+  margin-left: 425px;
+  max-width: 400px;
+  height: 0 auto;
+  background-color: #F4EADE;
+  border: 3px solid #1abc9c;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+  text-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+#breakNum,
+#num,
+#start,
+#reset {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#minus5Clock,
+#title1,
+#timeType,
+#add5Clock,
+#minus5Break,
+#title2,
+#add5Break {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  font: 30px bold;
+  text-decoration: none;
+  color: #FE5F55;
+}
